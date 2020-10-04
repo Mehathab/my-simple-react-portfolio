@@ -1,0 +1,26 @@
+@import "./fonts";
+@import "./colors";
+
+$font-size-base: 16px;
+
+$font-size-2xs: 0.85rem;
+$font-size-xs: 1rem;
+$font-size-sm: 1.25rem;
+$font-size-md: 1.5rem;
+$font-size-lg: 1.75rem;
+$font-size-xl: 2rem;
+$font-size-2xl: 5rem;
+
+// only use the following font sizes
+
+$font-size-normal: $font-size-xs;
+$font-size-subText: $font-size-2xs;
+$font-size-lead: $font-size-sm;
+$font-size-small-heading: $font-size-md;
+$font-size-medium-heading: $font-size-lg;
+$font-size-large-heading: $font-size-xl;
+$font-size-jumbotron: $font-size-2xl;
+
+$font-family-normal: "Roboto", sans-serif;
+$font-family-light: "Open Sans", sans-serif;
+$font-family-bold: "Quicksand", sans-serif;

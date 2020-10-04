@@ -1,0 +1,9 @@
+@import "../../assets/css/settings";
+.jumbotron {
+  font-size: $font-size-jumbotron;
+  font-family: $font-family-light;
+  letter-spacing: 0.15rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  line-height: 1;
+}
