@@ -9,10 +9,7 @@ class App extends Component {
   render() {
     return (
       <section>
-        <Header>
-          <Jumbotron>Mehathab Shaik's Portfolio</Jumbotron>
-          <Router></Router>
-        </Header>
+        <Router></Router>
       </section>
     );
   }

@@ -1,4 +1,12 @@
 @import "../../assets/css/settings";
 .nav {
   display: flex;
+  justify-content: flex-end;
+  & > * {
+    margin: 0.5rem 1rem;
+    color: $blue-medium-neutral;
+    font-family: $font-family-bold;
+    font-size: $font-size-lead;
+    text-decoration: none;
+  }
 }

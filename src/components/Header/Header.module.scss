@@ -1,4 +1,8 @@
 @import "../../assets/css/settings";
 .header {
   padding: 1rem;
+  background-color: $blue-contrast-dark;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

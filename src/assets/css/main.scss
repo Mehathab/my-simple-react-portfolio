@@ -2,5 +2,9 @@
 html {
   font-size: $font-size-normal;
   font-family: $font-family-normal;
-  background-color: $neutral;
+  background-color: $blue-medium-neutral;
+  body {
+    background-color: $blue-contrast-light;
+    margin: 0;
+  }
 }

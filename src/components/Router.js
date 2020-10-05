@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter, Switch, Route, Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import Jumbotron from "./Jumbotron";
+import Header from "./Header";
 
 const Router = () => {
   const HOME_ID = "home";
@@ -38,8 +39,11 @@ const Router = () => {
     );
   };
   return (
-    <HashRouter basename='/portfolio'>
-      <Navigation linksList={routesArray} />
+    <HashRouter basename='/'>
+      <Header>
+        <Jumbotron>My Portfolio</Jumbotron>
+        <Navigation linksList={routesArray} />
+      </Header>
       <Switch>{routesArray?.map(drawRouteComponent)}</Switch>
     </HashRouter>
   );
