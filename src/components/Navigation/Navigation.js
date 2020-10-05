@@ -1,16 +1,22 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classes from "classnames";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import localStyles from "./Navigation.module.scss";
 
 const drawLinkComponent = (linkObj) => {
   const { path, name, id } = linkObj || {};
   return (
-    <Link key={id} to={path}>
+    <NavLink
+      key={id}
+      to={path}
+      activeClassName={localStyles.activeLink}
+      exact
+      strict
+    >
       {name}
-    </Link>
+    </NavLink>
   );
 };
 

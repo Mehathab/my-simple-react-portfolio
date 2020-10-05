@@ -41,7 +41,7 @@ const Router = () => {
   return (
     <HashRouter basename='/'>
       <Header>
-        <Jumbotron>My Portfolio</Jumbotron>
+        <Jumbotron>Portfolio</Jumbotron>
         <Navigation linksList={routesArray} />
       </Header>
       <Switch>{routesArray?.map(drawRouteComponent)}</Switch>
