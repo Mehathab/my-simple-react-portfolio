@@ -1,0 +1,22 @@
+@import "../../assets/css/settings";
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  & > * {
+    margin: 1rem;
+    padding: 0.5rem;
+    color: $blue-medium-neutral;
+    font-family: $font-family-bold;
+    font-size: $font-size-lead;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .activeLink {
+    color: $blue-contrast-dark;
+    border-radius: 5px;
+    background-color: $blue-medium-neutral;
+  }
+}
